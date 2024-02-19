@@ -22,7 +22,7 @@ This is really the core part and it's standalone, you can use it by itself to bu
 
 To begin with I wanted to do some kind of bottom-up thing where I'd calculate the final states and then go up from the final state to the penultimate state but then I got kind of stuck on thinking how that was going to work.
 
-Then I thought - fuck it, let's just do it in the simple, dumb, memoization way.
+Then I thought - fuck it, let's just do it in the simple, dumb, top-down recursive (with memoization) way.
 
 So I did it and it was fast and it worked.
 

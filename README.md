@@ -14,7 +14,7 @@ The `perfectplay_outcome` function is actually really simple and took me only a 
 
 The hard part was coding up the `win_probability` and really making sure that it's correct.
 
-Actually I thought it was wrong when it was right. Specifically, it was telling me that the corner first move was the best, even though I thought that the center move was the best. Actually it turns out that the corner move really IS the best but only if the player doesn't pick the center. But I thought it was obvious to pick the center. So I added a heuristic that basically said that the center move was more likely to picked than the other places, and that adjustment made it prefer the center move over the corner move.
+Actually I thought it was wrong when it was right. Specifically, it was telling me that the corner first move was the best, even though I thought that the center move was the best. Actually it turns out that the corner move really IS the best if opponent plays randomly. But I thought it was obvious to pick the center. So I added a heuristic that basically said that the center move was more likely to picked than the other places, and that adjustment made it prefer the center move over the corner move.
 
 # perfectplay_outcome
 
